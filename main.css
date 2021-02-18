@@ -1,0 +1,97 @@
+.sign_1 {
+    margin-top: 70px;
+    
+}
+section .icon_1 {
+    height: 50px;
+
+}
+.icon_1:hover {
+  background: linear-gradient(120deg,#32F203,#8203F2);
+}
+.pagos_1 {
+    left: 10px;
+   
+}
+.contenido_1 {
+  justify-content: center;
+}
+.boton_servicio {
+    background: linear-gradient(130deg,#002156,#0660bd);
+    
+}
+.boton_contacto {
+    width: 130px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(130deg,#002156,#0660bd);
+}
+/*----------------------SWIPERJS--------------------------*/
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*----------------------WP_BUTTON--------------------------*/
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#27ae60;
+    color:#FFF;
+    border-radius:80px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    
+}
+ .float:hover{
+   background-color: royalblue;
+ }
+.my-float{
+    margin-top:16px;
+}
