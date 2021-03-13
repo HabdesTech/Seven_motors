@@ -95,3 +95,12 @@ body {
 .my-float{
     margin-top:16px;
 }
+
+@media screen and (max-width: 990px) {
+  .info-top {
+    text-align: center;
+  }
+  .links-top {
+    margin-right: 23%;
+  }
+}
